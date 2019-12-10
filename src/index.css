@@ -64,7 +64,7 @@ form {
 form button {
   padding: 0 1em;
   font-size: 1em;
-  background: #7bcbc4;
+  background: #FF872C;
   border-radius: .2em;
 }
 
@@ -95,8 +95,8 @@ button {
 
 header {
   text-align: center;
-  background: linear-gradient(90deg, #d4eece, #55b3d0, #1e7eb7),
-    url(./images/header-bg.jpg) no-repeat;
+  background: linear-gradient(90deg, #c9d892, #d4c431, #FF872C);
+    /* url(./images/header-bg.jpg) no-repeat; */
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -142,11 +142,11 @@ li button {
   border-radius: .3em;
   padding: .4em .6em;
   color: white;
-  background: #58b7cd;
+  background: #c8eb4b;
 }
 
 li button:last-child {
-  background: rgba(88, 183, 205, .5);
+  background: #d4c431;
 }
 
 div > input:last-child {
