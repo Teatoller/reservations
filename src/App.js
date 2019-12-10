@@ -6,8 +6,8 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1>RSVP</h1>
-          <p>A Treehouse App</p>
+          <h1>RESERVATIONS</h1>
+          <p>EVENTS | APP</p>
           <form>
             <input type="text" value="Safia" placeholder="Invite Someone" />
             <button type="submit" name="submit" value="submit">
@@ -43,7 +43,7 @@ class App extends Component {
               <span>Safia</span>
             </li>
             <li className="responded">
-              <span>Iver</span>
+              <span>Iventus</span>
               <label>
                 <input type="checkbox" checked /> Confirmed
               </label>
@@ -51,7 +51,7 @@ class App extends Component {
               <button>remove</button>
             </li>
             <li className="responded">
-              <span>Corrina</span>
+              <span>Talia</span>
               <label>
                 <input type="checkbox" checked /> Confirmed
               </label>
@@ -59,7 +59,7 @@ class App extends Component {
               <button>remove</button>
             </li>
             <li>
-              <span>Joel</span>
+              <span>Jumo</span>
               <label>
                 <input type="checkbox" /> Confirmed
               </label>
