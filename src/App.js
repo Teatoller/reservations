@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import GuestList from "./GuestList";
 
 class App extends Component {
   constructor() {
@@ -62,35 +63,8 @@ class App extends Component {
               </tr>
             </tbody>
           </table>
-          <ul>
-            <li className="pending">
-              <span>Safia</span>
-            </li>
-            <li className="responded">
-              <span>Iventus</span>
-              <label>
-                <input type="checkbox" checked /> Confirmed
-              </label>
-              <button>edit</button>
-              <button>remove</button>
-            </li>
-            <li className="responded">
-              <span>Talia</span>
-              <label>
-                <input type="checkbox" checked /> Confirmed
-              </label>
-              <button>edit</button>
-              <button>remove</button>
-            </li>
-            <li>
-              <span>Jumo</span>
-              <label>
-                <input type="checkbox" /> Confirmed
-              </label>
-              <button>edit</button>
-              <button>remove</button>
-            </li>
-          </ul>
+          
+          <GuestList guests={this.state.guests} />
         </div>
       </div>
     );
